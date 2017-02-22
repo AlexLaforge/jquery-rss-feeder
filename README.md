@@ -1,6 +1,6 @@
 # jquery-rss-feeder
 
-The purpose of this code is to take and rss feed and scroll it with a ticker vertically using jQuery. 
+The purpose of this code is to scroll Twitter in an RSS feeds using a 'fancy' CSS driven ticker vertically using jQuery. 
 
 ### Version
 1.0.0
