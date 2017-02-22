@@ -62,19 +62,19 @@ Widget template code for the you will need at feed informer. Just create your ow
 Header template:
 ```
 <div class="news-wrap">
-<div class="twitter-news marquee">
+  <div class="twitter-news marquee">
 ```
 
 Per-item template:
 ```
-<div class="twitter-news-item marquee-item" onclick="window.open('%URL%');"><span></span>
-  <div><a href="%URL%" title="%DESCRIPTIONPLAIN,150%" target="_blank">%DESCRIPTIONPLAIN,150%</a></div>
-</div>
+    <div class="twitter-news-item marquee-item" onclick="window.open('%URL%');"><span></span>
+      <div><a href="%URL%" title="%DESCRIPTIONPLAIN,150%" target="_blank">%DESCRIPTIONPLAIN,150%</a></div>
+    </div>
 ```
 
 Footer Tempalte
 ```
-</div>
+  </div>
 </div>
 ```
 
