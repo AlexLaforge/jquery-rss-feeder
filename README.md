@@ -40,6 +40,7 @@ Basically the RSS feed is being converted by Feed Informer to HTML using the tem
 ####ASP (vbScript)
 ----------------------------------------------
 
+<c
 <%
   On Error Resume Next
   dim blogObject
@@ -50,7 +51,7 @@ Basically the RSS feed is being converted by Feed Informer to HTML using the tem
   Response.Flush()
   set blogObject = nothing
 %>
-
+</code>
 
 ####Feed Informer Template
 ----------------------------------------------
