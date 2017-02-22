@@ -25,16 +25,7 @@ Want to contribute? Great!
   
 ### Details
 
-The main code was written in classic ASP because that is what we use on our current system. It can easy be converted to other languages. 
-
-The included HTML file in this project is just an exmaple of what the RSS feed will look like after the ASP has imported and parced the RSS feed to HTML. I included it only because I helps when to see when styling the CSS and working with the JQuery code. However, the ASP is actually able to create the HTML on the fly from any RSS feed. I am only using ASP Classic (vbScript) because that is what we used on our projects at the time. We have a lot of propertiey code that we built on ASP for over 20 years. I personally prefer PHP, but that is not what we used on this project.  
-
-I was using this code on the footer our our company website. You are welcome to look at there for an example.
-www.internetbuilderconsulting.com
-
-I used http://feed.informer.com to convert the RSS feed to HTML that I can import into our site. 
-
-Feed Informer does not offer their own code for this, but we (a friend Carol) worked with me to write this to convert the ASP.net script to ASP and import it into our page. I wrote all the rest of the code. All you need is the Widget ID from Feed Informer. You do not need to use their code, the code I am providing below is what you will need.
+The main code was written in classic ASP because that is what we use on our current system.  
 
 Basically the RSS feed is being converted by Feed Informer to HTML using the template (see below). I am importing that template into blogObject and then writing that object to the console. ASP is a very strick language with lots of limitations. It took us a while to figure this out, but it is actually very simple.
 
@@ -82,6 +73,16 @@ Footer Template:
 
 ----------------------------------------------
 
+###Additional Info
+
+The included HTML file in this project is just an exmaple of what the RSS feed will look like after the ASP has imported and parced the RSS feed to HTML. I included it only because I helps when to see when styling the CSS and working with the JQuery code. However, the ASP is actually able to create the HTML on the fly from any RSS feed. 
+
+I was using this code on the footer our company website. You are welcome to look at there for an example.
+www.internetbuilderconsulting.com
+
+Also, fyi, Feed Informer does not offer their own code for what I am doing and they do not offer ASP (vbScript) code. However, we (a friend Carol) worked with me to write the ASP code to convert the ASP.net script they offer to ASP and import the outputed HTML. I wrote all the rest of the code. 
+
+Once you know your Widget ID, and you have set up the Widget Template, all you need is the Widget ID from Feed Informer to make the ASP code work. You do not need to use ANY their code, the code I am providing below is all you will need.
 
 The rest of the code is in this project including the JS, JQuery and CSS. Hopefully you can follow it fairly easy. 
 
