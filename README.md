@@ -94,7 +94,8 @@ Enjoy.
 
 ###Final Comments
 
-If I was to change something, I would not use OnClick. It is bad SEO because Google does not follow onClick events, only HREF links. I will probably fix it. It would have worked better using a standard HREF with a target="_blank" link. I wrote this code a while back and I am not sure why I did it that way. I will make changes to it later if I have time.
+Looking at this code now, months later, I was wondering why I used OnClick instead of a standard HREF tag. It is bad SEO because Google does not follow onClick events, only HREF links. For a minute, I would have said, it will worked better using a standard HREF with a target="_blank" link. Upon futher investigation, the link is there twice. So Google is seeing the tags correctly. The ourside div, just needed to a repeat of the link so that the user had the proper experice. I might have been able to just put the link once, however, I dont see it causing any real issues in this way. If anyone wants to comment on that, let me know. If I was to do it agian, I would probably avoid that, it seems redudant. I probably could have made the ouside link with an HREF tag and it would have worked fine. I can look at it more later. Again, this is just posted for archiving and dicussion (sharing). 
+
 
 
 
