@@ -24,15 +24,15 @@ Want to contribute? Great!
   - Rethink Github Save
   - Add Code Comments
   
+----------------------------------------------
+  
 ### Details
 
 Basically the RSS feed is being converted by Feed Informer to HTML using the template (see below). I am importing that template into blogObject and then writing that object to the console. 
 
 The main code was written in classic ASP because that is what we use on our current system.  ASP has some very big limitations, but in the end, the solution was very simple.
 
-
 ####ASP (vbScript)
-----------------------------------------------
 
 ```
 <%
@@ -48,7 +48,6 @@ The main code was written in classic ASP because that is what we use on our curr
 ```
 
 ####Feed Informer Template
-----------------------------------------------
 
 Just create your own custom widget in Feed Informer then put this template in the Header, Per-Item and Footer and save it. It will create the HTML code for the ASP code I am using above. 
 
