@@ -92,5 +92,9 @@ I do appolgize, I normally I put better comments in my help files. I was just th
 
 Enjoy.
 
+###Final Comments
+
+If I was to change something, I would not use OnClick. It is bad SEO because Google does not follow onClick events, only HREF links. I will probably fix it. It would have worked better using a standard HREF with a target="_blank" link. I wrote this code a while back and I am not sure why I did it that way. I will make changes to it later if I have time.
+
 
 
