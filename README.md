@@ -25,7 +25,9 @@ Want to contribute? Great!
   
 ### Details
 
-The main code was written in classic ASP because that is what we use on our current system. It can easy be converted to other laguages. The HTML is just an exmaple of what the RSS feed will look like after the ASP has inported and parced the RSS feed. I included it only because I helps when styling the CSS and working with the JQuery code. However, the ASP is actually able to create the HTML on the fly from any RSS feed.
+The main code was written in classic ASP because that is what we use on our current system. It can easy be converted to other languages. 
+
+The included HTML file in this project is just an exmaple of what the RSS feed will look like after the ASP has imported and parced the RSS feed to HTML. I included it only because I helps when to see when styling the CSS and working with the JQuery code. However, the ASP is actually able to create the HTML on the fly from any RSS feed. I am only using ASP Classic (vbScript) because that is what we used on our projects at the time. We have a lot of propertiey code that we built on ASP for over 20 years. I personally prefer PHP, but that is not what we used on this project.  
 
 I was using this code on the footer our our company website. You are welcome to look at there for an example.
 www.internetbuilderconsulting.com
