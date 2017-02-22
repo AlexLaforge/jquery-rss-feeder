@@ -136,7 +136,8 @@
 	-ms-hyphens: auto;
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
-	hyphens: auto;/* -------- End Fix Large URLs -------- */
+	hyphens: auto;
+	/* -------- End Fix Large URLs -------- */
 }
 .news-wrap {
 	margin: 0 0 15px;
