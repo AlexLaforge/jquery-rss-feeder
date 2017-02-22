@@ -59,20 +59,20 @@ Basically the RSS feed is being converted by Feed Informer to HTML using the tem
 Widget template code for the you will need at feed informer. Just create your own custom widget and save it. It will create the correct code for the ASP code I am using above. You can use this for any RSS feed. 
 
 
-Header template:
+Header Template:
 ```
 <div class="news-wrap">
   <div class="twitter-news marquee">
 ```
 
-Per-item template:
+Per-item Template:
 ```
     <div class="twitter-news-item marquee-item" onclick="window.open('%URL%');"><span></span>
       <div><a href="%URL%" title="%DESCRIPTIONPLAIN,150%" target="_blank">%DESCRIPTIONPLAIN,150%</a></div>
     </div>
 ```
 
-Footer Tempalte
+Footer Template:
 ```
   </div>
 </div>
