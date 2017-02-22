@@ -34,30 +34,31 @@
 <div class="rss-feeder">
   <div class="feeder">
     <h5>From Our Blog</h5>
-    <%
-			On Error Resume Next
-			dim blogObject
-			set blogObject = CreateObject("MSXML2.XMLHTTP")
-			Call blogObject.Open("GET", "http://feed.informer.com/widgets/1PE6GMRN1P.html", false)
-			Call blogObject.Send()
-			Response.Write(blogObject.responseText)
-			Response.Flush()
-			set blogObject = nothing
-		%>
+	<!--blog list-->
+	<%
+	On Error Resume Next
+	dim blogObject
+	set blogObject = CreateObject("MSXML2.XMLHTTP")
+	Call blogObject.Open("GET", "http://feed.informer.com/widgets/1PE6GMRN1P.html", false)
+	Call blogObject.Send()
+	Response.Write(blogObject.responseText)
+	Response.Flush()
+	set blogObject = nothing
+	%>
   </div>
   <div class="feeder">
     <h5>Latest Tweets</h5>
-    <!--tweet list-->
-    <%
-			On Error Resume Next
-			dim tweetObject
-			set tweetObject = CreateObject("MSXML2.XMLHTTP")
-			Call tweetObject.Open("GET", "http://feed.informer.com/widgets/0TS5GV2XON.html", false)
-			Call tweetObject.Send()
-			Response.Write(tweetObject.responseText)
-			Response.Flush()
-			set tweetObject = nothing
-		%>
+	<!--tweet list-->
+	<%
+	On Error Resume Next
+	dim tweetObject
+	set tweetObject = CreateObject("MSXML2.XMLHTTP")
+	Call tweetObject.Open("GET", "http://feed.informer.com/widgets/0TS5GV2XON.html", false)
+	Call tweetObject.Send()
+	Response.Write(tweetObject.responseText)
+	Response.Flush()
+	set tweetObject = nothing
+	%>
   </div>
 </div>
 </body>
