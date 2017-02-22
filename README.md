@@ -9,8 +9,9 @@ The purpose of this code is to create a CSS driven vertical ticking scroll of an
 
 jquery-rss-feeder uses a number of open source projects to work properly:
 
-  - [jQuery.com]
-  - [feed.informer.com]
+  - jQuery.com 
+  - feed.informer.com - Converts the RSS feed to HTML.
+  - twitrss.me - Converts the Twitter Page to and RSS feed.
 
 ### Development
 
