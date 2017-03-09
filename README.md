@@ -1,4 +1,4 @@
-# vbScript jQuery RSS/XML Feed Reader via feed.informer.com
+# jQuery XML/RSS Feed Reader via vbScript and feed.informer.com
 
 The purpose of this code is to create a CSS driven vertical ticking scroll of an RSS feed from a Twitter page (or anywhere actualy including a blog). It not only scrolls vertically, but will stop when you hover over it.
 
